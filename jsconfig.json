@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {},
+    "module": "commonjs",
+    "target": "es2020"
+  },
+  "exclude": ["node_modules", ".yarn", "dist"],
+  "include": ["src/**/*"]
+}

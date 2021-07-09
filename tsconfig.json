@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Node 14",
+  "include": ["./src"],
+  "exclude": ["./.yarn"],
+  "typeAcquisition": {
+    "include": ["./types"]
+  },
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+
+    "lib": ["es2020", "dom"],
+    "module": "commonjs",
+    "target": "es2020",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true
+  }
+}
